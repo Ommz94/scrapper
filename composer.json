@@ -1,0 +1,12 @@
+{
+    "name": "omeash/scrapper",
+    "authors": [
+        {
+            "name": "Ommz94",
+            "email": "57147804+Ommz94@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "embed/embed": "^3.4"
+    }
+}
