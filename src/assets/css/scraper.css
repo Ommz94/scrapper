@@ -24,3 +24,7 @@ body{
 main{
     background: #fff;
 }
+
+#scrapped-content p{
+    font-size: .9rem !important;
+}
