@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
-    <link href="../../src/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link href="../../src/assets/css/now-ui-kit.css" rel="stylesheet"/>
-    <link href="../../src/assets/css/scraper.css" rel="stylesheet"/>
+    <link href="assets/css/now-ui-kit.css" rel="stylesheet"/>
+    <link href="assets/css/scraper.css" rel="stylesheet"/>
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -61,7 +61,7 @@
 <div class="wrapper">
     <div class="page-header clear-filter page-header-small" filter-color="green">
         <div class="page-header-image" data-parallax="true"
-             style="background-image:url('../../src/assets/img/scrap.jpg');">
+             style="background-image:url('assets/img/scrap.jpg');">
         </div>
         <div class="container">
             <h2 class="title">Want to find something?</h2>
@@ -307,10 +307,10 @@
     </footer>
 </div>
 <!--   Core JS Files   -->
-<script src="../../src/assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="../../src/assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../../src/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="../../src/assets/js/now-ui-kit.js" type="text/javascript"></script>
+<script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/now-ui-kit.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
