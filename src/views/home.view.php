@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="src/assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link href="assets/css/now-ui-kit.css" rel="stylesheet"/>
-    <link href="assets/css/scraper.css" rel="stylesheet"/>
+    <link href="src/assets/css/now-ui-kit.css" rel="stylesheet"/>
+    <link href="src/assets/css/scraper.css" rel="stylesheet"/>
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -29,9 +29,7 @@
 <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="https://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip"
-               title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
-
+            <a class="navbar-brand" href="/">
                 <svg width="16" height="16" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="m189.06 279.92-158.84 121.03c-27.777 21.168-30.52 61.965-5.8242 86.66 24.691 24.691 65.492 21.949 86.656-5.8281l121.03-158.84zm-102.08 182.14c-10.227 10.227-26.809 10.227-37.035 0-10.227-10.227-10.227-26.809 0-37.035 10.227-10.227 26.809-10.227 37.035 0 10.227 10.23 10.227 26.809 0 37.035z"
                           fill="#45748c"/>
@@ -51,7 +49,6 @@
                     <path d="m180.78 390.27c-3.293-2.5117-8-1.875-10.508 1.418l-65.184 85.547c-8.7773 11.52-22.098 18.684-36.543 19.652-14.441 0.97656-28.605-4.3438-38.848-14.582-10.238-10.238-15.555-24.398-14.582-38.844 0.97266-14.449 8.1328-27.77 19.652-36.547l85.547-65.18c3.293-2.5117 3.9297-7.2188 1.418-10.512-2.5078-3.293-7.2148-3.9297-10.508-1.4219l-85.551 65.184c-14.957 11.398-24.262 28.703-25.523 47.469-1.2617 18.766 5.6406 37.16 18.941 50.457 12.266 12.266 28.855 19.09 46.082 19.09 1.4531 0 2.9141-0.046875 4.375-0.14453 18.77-1.2617 36.07-10.566 47.469-25.527l65.184-85.547c2.5078-3.2969 1.875-8.0039-1.4219-10.512z"/>
                     <path d="m44.645 419.72c-13.137 13.133-13.137 34.504 0 47.641 6.5664 6.5664 15.191 9.8477 23.816 9.8477 8.6289 0 17.254-3.2812 23.824-9.8477 13.133-13.137 13.133-34.508 0-47.641-13.137-13.137-34.508-13.133-47.641 0zm37.031 10.605c7.2852 7.2852 7.2852 19.141 0 26.426-7.2852 7.2852-19.141 7.2891-26.426 0-7.2852-7.2852-7.2852-19.141 0-26.426 3.6445-3.6445 8.4258-5.4648 13.211-5.4648 4.7852 0 9.5742 1.8203 13.215 5.4648z"/>
                 </svg>
-
                 Scrappy
             </a>
         </div>
@@ -61,7 +58,7 @@
 <div class="wrapper">
     <div class="page-header clear-filter page-header-small" filter-color="green">
         <div class="page-header-image" data-parallax="true"
-             style="background-image:url('assets/img/scrap.jpg');">
+             style="background-image:url('src/assets/img/scrap.jpg');">
         </div>
         <div class="container">
             <h2 class="title">Want to find something?</h2>
@@ -82,69 +79,6 @@
                         </div>
                     </div>
 
-                    <div class="row">
-
-                        <div class="col-lg-12">
-                            <button type="button" class="btn bg-transparent filter-button mx-auto" id="toggle-filters"
-                                    data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                                    aria-controls="collapseExample">
-                                <svg width="32" height="32" enable-background="new 0 0 512 512" version="1.1"
-                                     viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="294.32" cy="44" r="34" fill="#C1EE92"/>
-                                    <path d="m367.88 168c0-25.957-21.043-47-47-47s-47 21.043-47 47h94z" fill="#FF5D5D"/>
-                                    <circle cx="170.37" cy="134" r="34" fill="#FED284"/>
-                                    <path d="m433.8 168h-347.2c-8.005 0-12.765 8.938-8.298 15.58l135.9 202.09v116.33l92-40.063v-76.271l135.9-202.09c4.467-6.642-0.293-15.58-8.298-15.58z"
-                                          fill="#96EDE7"/>
-                                    <path d="m433.8 168h-347.2c-8.005 0-12.765 8.938-8.298 15.58l21.801 32.42h320.19l21.802-32.42c4.467-6.642-0.293-15.58-8.298-15.58z"
-                                          fill="#D9F9F7"/>
-                                    <path d="m451.45 168.6c-3.482-6.538-10.245-10.599-17.652-10.599h-56.81c-4.743-26.675-28.087-47-56.104-47s-51.361 20.325-56.104 47h-57.555c4.514-6.908 7.15-15.15 7.15-24 0-24.262-19.738-44-44-44s-44 19.738-44 44c0 8.85 2.636 17.092 7.15 24h-46.926c-7.407 0-14.17 4.061-17.652 10.599-3.481 6.537-3.077 14.416 1.056 20.562l134.2 199.56v113.28c0 3.372 1.699 6.517 4.52 8.364 1.653 1.083 3.562 1.636 5.481 1.636 1.354 0 2.713-0.275 3.992-0.832l92-40.063c3.648-1.589 6.007-5.189 6.007-9.168v-73.221l134.2-199.56c4.133-6.145 4.538-14.024 1.056-20.561zm-130.57-37.599c16.937 0 31.241 11.443 35.616 27h-71.231c4.374-15.557 18.679-27 35.615-27zm-174.51 3c0-13.233 10.767-24 24-24s24 10.767 24 24-10.767 24-24 24-24-10.767-24-24zm151.52 246.09c-1.109 1.649-1.702 3.592-1.702 5.58v69.719l-72 31.353v-91.072h36.127c5.523 0 10-4.477 10-10s-4.477-10-10-10h-40.801l-100.64-149.67h202c5.523 0 10-4.477 10-10s-4.477-10-10-10h-215.45l-18.829-28h347.19l-135.9 202.09z"/>
-                                    <path d="m294.32 88c24.262 0 44-19.738 44-44s-19.738-44-44-44-44 19.738-44 44 19.739 44 44 44zm0-68c13.233 0 24 10.767 24 24s-10.767 24-24 24-24-10.767-24-24 10.767-24 24-24z"/>
-                                    <path d="m401.2 125.17c5.523 0 10-4.477 10-10v-56.835c0-5.523-4.477-10-10-10s-10 4.477-10 10v56.834c0 5.524 4.477 10.001 10 10.001z"/>
-                                    <path d="m401.2 35.5c2.63 0 5.21-1.07 7.07-2.93s2.93-4.44 2.93-7.07-1.07-5.21-2.93-7.07-4.44-2.93-7.07-2.93-5.21 1.07-7.07 2.93-2.93 4.44-2.93 7.07 1.07 5.21 2.93 7.07 4.44 2.93 7.07 2.93z"/>
-                                    <path d="m204.38 73.755c5.523 0 10-4.477 10-10v-41c0-5.523-4.477-10-10-10s-10 4.477-10 10v41c0 5.523 4.477 10 10 10z"/>
-                                    <path d="m68.197 85.168c5.523 0 10-4.477 10-10v-65.168c0-5.523-4.477-10-10-10s-10 4.477-10 10v65.168c0 5.523 4.477 10 10 10z"/>
-                                    <path d="m75.267 119.74c1.86-1.86 2.93-4.44 2.93-7.07 0-2.64-1.07-5.21-2.93-7.07-1.86-1.87-4.44-2.93-7.07-2.93s-5.21 1.06-7.07 2.93c-1.86 1.86-2.93 4.43-2.93 7.07 0 2.63 1.07 5.21 2.93 7.07s4.44 2.93 7.07 2.93 5.21-1.07 7.07-2.93z"/>
-                                    <path d="m358.28 208.93c-1.87 1.86-2.93 4.44-2.93 7.07s1.06 5.21 2.93 7.07c1.86 1.86 4.43 2.93 7.07 2.93 2.63 0 5.2-1.07 7.07-2.93 1.86-1.86 2.93-4.44 2.93-7.07s-1.07-5.21-2.93-7.07-4.44-2.93-7.07-2.93c-2.64 0-5.22 1.07-7.07 2.93z"/>
-                </svg>
-
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="collapse" id="collapseExample">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="font-weight-bold text-left">Content filters</p>
-                                <div class="form-group">
-                                    <div class="text-left">
-                                        <div class="form-check form-check-inline">
-                                            <label class="form-check-label">
-                                                <input class="form-check-input" type="checkbox">
-                                                <span class="form-check-sign bg-white"></span>
-                                                Images
-                                            </label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <label class="form-check-label">
-                                                <input class="form-check-input" type="checkbox">
-                                                <span class="form-check-sign bg-white"></span>
-                                                Content
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <p class="font-weight-bold text-left">Keywords</p>
-                                    <input type="text" class="form-control bg-white">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </form>
 
             </div>
@@ -155,7 +89,7 @@
             <!--        <h3 class="title mt-0">About me</h3>-->
 
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
 
                     <div id="scrapped-content">
                         <?php if (getUrl()) {
@@ -201,20 +135,21 @@
                                 <?php
                             }
 
-                            $dom = new DomDocument();
+                            $dom = new \DomDocument();
                             @$dom->loadHTML($info->getResponse()->getContent());
 
                             $xPath = new DOMXpath($dom);
-                            $paragraphs = $xPath->query("//p");
 
-                            $body = $xPath->query("//div[contains(@class, 'post-body')]");
+                            $body = $xPath->query("//body");
 
                             ?>
                             <!-- Content-->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h4 class="font-weight-bold">Content</h4>
-                                    <?php echo isset($body[0]) ? $body[0]->textContent : 'Not content found' ?>
+                                    <div id="content">
+                                        <?php echo isset($body[0]) ? $body[0]->textContent : 'Not content found' ?>
+                                    </div>
                                 </div>
                             </div>
                             <?php
@@ -222,58 +157,13 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4">
-
-                    <div class="row">
-
-                        <h5 class="px-3 font-weight-bold">Recent scraps</h5>
-
-                        <div class="col-lg-12">
-                            <div class="card" style="width: 20rem;">
-                                <img class="card-img-top" src="https://via.placeholder.com/320x75" alt="Card image cap">
-                                <div class="card-body p-2">
-                                    <p class="mb-0 font-weight-bold">Card title</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="card" style="width: 20rem;">
-                                <img class="card-img-top" src="https://via.placeholder.com/320x75" alt="Card image cap">
-                                <div class="card-body p-2">
-                                    <p class="mb-0 font-weight-bold">Card title</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="card" style="width: 20rem;">
-                                <img class="card-img-top" src="https://via.placeholder.com/320x75" alt="Card image cap">
-                                <div class="card-body p-2">
-                                    <p class="mb-0 font-weight-bold">Card title</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="card" style="width: 20rem;">
-                                <img class="card-img-top" src="https://via.placeholder.com/320x75" alt="Card image cap">
-                                <div class="card-body p-2">
-                                    <p class="mb-0 font-weight-bold">Card title</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
             </div>
 
         </div>
     </div>
-    <footer class="footer footer-default">
-        <div class=" container ">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="font-weight-bold">
+    <footer class="footer footer-default mt-5">
+        <div class="container text-center">
+           <a href="#" class="font-weight-bold" style="color: black;">
                             <svg width="16" height="16" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                 <path d="m189.06 279.92-158.84 121.03c-27.777 21.168-30.52 61.965-5.8242 86.66 24.691 24.691 65.492 21.949 86.656-5.8281l121.03-158.84zm-102.08 182.14c-10.227 10.227-26.809 10.227-37.035 0-10.227-10.227-10.227-26.809 0-37.035 10.227-10.227 26.809-10.227 37.035 0 10.227 10.23 10.227 26.809 0 37.035z"
                                       fill="#45748c"/>
@@ -295,23 +185,51 @@
                             </svg>
                             SCRAPPY
                         </a>
-                    </li>
-                    <li>
-                        <a href="http://presentation.creative-tim.com">
-                            About Us
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </footer>
+
+    <button id="keyword-search-box-trigger" class="openned">
+        <svg width="32" height="32" enable-background="new 0 0 512 512" version="1.1"
+                                     viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="294.32" cy="44" r="34" fill="#C1EE92"/>
+                                    <path d="m367.88 168c0-25.957-21.043-47-47-47s-47 21.043-47 47h94z" fill="#FF5D5D"/>
+                                    <circle cx="170.37" cy="134" r="34" fill="#FED284"/>
+                                    <path d="m433.8 168h-347.2c-8.005 0-12.765 8.938-8.298 15.58l135.9 202.09v116.33l92-40.063v-76.271l135.9-202.09c4.467-6.642-0.293-15.58-8.298-15.58z"
+                                          fill="#96EDE7"/>
+                                    <path d="m433.8 168h-347.2c-8.005 0-12.765 8.938-8.298 15.58l21.801 32.42h320.19l21.802-32.42c4.467-6.642-0.293-15.58-8.298-15.58z"
+                                          fill="#D9F9F7"/>
+                                    <path d="m451.45 168.6c-3.482-6.538-10.245-10.599-17.652-10.599h-56.81c-4.743-26.675-28.087-47-56.104-47s-51.361 20.325-56.104 47h-57.555c4.514-6.908 7.15-15.15 7.15-24 0-24.262-19.738-44-44-44s-44 19.738-44 44c0 8.85 2.636 17.092 7.15 24h-46.926c-7.407 0-14.17 4.061-17.652 10.599-3.481 6.537-3.077 14.416 1.056 20.562l134.2 199.56v113.28c0 3.372 1.699 6.517 4.52 8.364 1.653 1.083 3.562 1.636 5.481 1.636 1.354 0 2.713-0.275 3.992-0.832l92-40.063c3.648-1.589 6.007-5.189 6.007-9.168v-73.221l134.2-199.56c4.133-6.145 4.538-14.024 1.056-20.561zm-130.57-37.599c16.937 0 31.241 11.443 35.616 27h-71.231c4.374-15.557 18.679-27 35.615-27zm-174.51 3c0-13.233 10.767-24 24-24s24 10.767 24 24-10.767 24-24 24-24-10.767-24-24zm151.52 246.09c-1.109 1.649-1.702 3.592-1.702 5.58v69.719l-72 31.353v-91.072h36.127c5.523 0 10-4.477 10-10s-4.477-10-10-10h-40.801l-100.64-149.67h202c5.523 0 10-4.477 10-10s-4.477-10-10-10h-215.45l-18.829-28h347.19l-135.9 202.09z"/>
+                                    <path d="m294.32 88c24.262 0 44-19.738 44-44s-19.738-44-44-44-44 19.738-44 44 19.739 44 44 44zm0-68c13.233 0 24 10.767 24 24s-10.767 24-24 24-24-10.767-24-24 10.767-24 24-24z"/>
+                                    <path d="m401.2 125.17c5.523 0 10-4.477 10-10v-56.835c0-5.523-4.477-10-10-10s-10 4.477-10 10v56.834c0 5.524 4.477 10.001 10 10.001z"/>
+                                    <path d="m401.2 35.5c2.63 0 5.21-1.07 7.07-2.93s2.93-4.44 2.93-7.07-1.07-5.21-2.93-7.07-4.44-2.93-7.07-2.93-5.21 1.07-7.07 2.93-2.93 4.44-2.93 7.07 1.07 5.21 2.93 7.07 4.44 2.93 7.07 2.93z"/>
+                                    <path d="m204.38 73.755c5.523 0 10-4.477 10-10v-41c0-5.523-4.477-10-10-10s-10 4.477-10 10v41c0 5.523 4.477 10 10 10z"/>
+                                    <path d="m68.197 85.168c5.523 0 10-4.477 10-10v-65.168c0-5.523-4.477-10-10-10s-10 4.477-10 10v65.168c0 5.523 4.477 10 10 10z"/>
+                                    <path d="m75.267 119.74c1.86-1.86 2.93-4.44 2.93-7.07 0-2.64-1.07-5.21-2.93-7.07-1.86-1.87-4.44-2.93-7.07-2.93s-5.21 1.06-7.07 2.93c-1.86 1.86-2.93 4.43-2.93 7.07 0 2.63 1.07 5.21 2.93 7.07s4.44 2.93 7.07 2.93 5.21-1.07 7.07-2.93z"/>
+                                    <path d="m358.28 208.93c-1.87 1.86-2.93 4.44-2.93 7.07s1.06 5.21 2.93 7.07c1.86 1.86 4.43 2.93 7.07 2.93 2.63 0 5.2-1.07 7.07-2.93 1.86-1.86 2.93-4.44 2.93-7.07s-1.07-5.21-2.93-7.07-4.44-2.93-7.07-2.93c-2.64 0-5.22 1.07-7.07 2.93z"/>
+                </svg>
+    </button>
+
+    <div class="keyword-search-box">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <input type="text" name="keywords" class="form-control bg-white font-weight-bold" placeholder="Highlight keywords">
+        <small>You can highlight multiple keywords by separate by comma(,)</small>
+        <div class="searchbox-footer mt-2 text-right">
+            <button type="button" class="btn btn-primary btn-round my-0 font-weight-bold border-0 btn-apply-filter btn-sm">Apply</button>
+            <button type="button" class="btn btn-primary btn-round my-0 font-weight-bold border-0 btn-clear-filter btn-sm">Clear</button>
+        </div>
+    </div>
+
 </div>
 <!--   Core JS Files   -->
-<script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/js/now-ui-kit.js" type="text/javascript"></script>
+<script src="src/assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="src/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="src/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="src/assets/js/now-ui-kit.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="src/assets/js/scraper.js" type="text/javascript"></script>
 </body>
 
 </html>

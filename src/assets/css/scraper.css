@@ -1,7 +1,3 @@
-body{
-    background-color: aliceblue !important;
-}
-
 .filters p, .filters label, .filters input, .filters select{
     font-size: 12px;
 }
@@ -27,4 +23,56 @@ main{
 
 #scrapped-content p{
     font-size: .9rem !important;
+}
+
+
+#keyword-search-box-trigger{
+    background: white;
+    border: none;
+    box-shadow: 0 0 19px #0000006b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 57%;
+    right: 20px;
+    z-index: 9999;
+    outline: none;
+    display: none;
+}
+
+#keyword-search-box-trigger:active, #keyword-search-box-trigger:focus{
+    outline: none;
+}
+
+#keyword-search-box-trigger:hover{
+    background: #ffddd2;
+}
+
+.keyword-search-box{
+    position: fixed;
+    width: 30%;
+    max-width: 300px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 18px 3px #00000042;
+    right: 35px;
+    top: 60%;
+    z-index: 999;
+    display: none;
+}
+
+.keyword-search-box.openned, #keyword-search-box-trigger.openned{
+    display: block;
+    transition: display 500ms;
+}
+
+.keyword-search-box button.close:focus{
+    outline: none;
+}
+
+mark{
+    background-color: #f9f94e !important;
 }
