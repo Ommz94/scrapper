@@ -6,7 +6,15 @@
             "email": "57147804+Ommz94@users.noreply.github.com"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "require": {
         "embed/embed": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
     }
 }
