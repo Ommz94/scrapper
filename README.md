@@ -25,7 +25,7 @@ Following are some points that clean code development is implemented in Scrappy
 4.
 5.
 
-####Cheat Sheet
+#### Cheat Sheet
 
 **General rules**
 Follow standard conventions.
@@ -93,12 +93,12 @@ PhpStorm provides an editor for PHP, HTML and JavaScript with on-the-fly code an
 
 PhpStorm has keyboard shortcuts for most of its commands related to editing, navigation, refactoring, debugging, and other tasks. Here are some of my favorite shortcuts.
 
-•	Ctrl+ E - toggle between recently used files
-•	Ctrl + / - comment/uncomment a block of code
-•	Ctrl + B - go to the class declaration
-•	Ctrl + R - search and replace
-•	Ctrl +Alt + L - reformat code
-•	Alt + Enter - show intention actions and quick-fixes
+- Ctrl+ E - toggle between recently used files
+- Ctrl + / - comment/uncomment a block of code
+- Ctrl + B - go to the class declaration
+- Ctrl + R - search and replace
+- Ctrl +Alt + L - reformat code
+- Alt + Enter - show intention actions and quick-fixes
 
 
 ### DSL
@@ -106,17 +106,17 @@ PhpStorm has keyboard shortcuts for most of its commands related to editing, nav
 Example:
 Focusing on transaction searching that was both easy to read and deep enough to perform complicated queries. Such as;
 
-•	Queried for exact match, no match, beginning of string, end of string and substring
-•	Queried with a set of predefined values and will return all records matching any of the given values
-•	Queried with a lower bound, an upper bound or both.
+- Queried for exact match, no match, beginning of string, end of string and substring
+- Queried with a set of predefined values and will return all records matching any of the given values
+- Queried with a lower bound, an upper bound or both.
 
 **Criteria**
 Assume that user wants to search for transactions meeting the following criteria:
-•	The order id starts with “a2d”
-•	The customer website ends with “.com”
-•	The billing first name equals “John”
-•	The status is either Authorized or Settled
-•	The amount is between 10 and 20 dollars
+- The order id starts with “a2d”
+- The customer website ends with “.com”
+- The billing first name equals “John”
+- The status is either Authorized or Settled
+- The amount is between 10 and 20 dollars
 
 
 ### Functional Programming
