@@ -28,56 +28,56 @@ Following are some points that clean code development is implemented in Scrappy
 #### Cheat Sheet
 
 **General rules**
-Follow standard conventions.
-Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
-Boy scout rule. Leave the campground cleaner than you found it.
+- Follow standard conventions.
+- Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
+- Boy scout rule. Leave the campground cleaner than you found it.
 
 **Design rules**
-Prefer polymorphism to if/else or switch/case.
-Separate multi-threading code.
-Use dependency injection.
+- Prefer polymorphism to if/else or switch/case.
+- Separate multi-threading code.
+- Use dependency injection.
 
 **Understandability tips**
-Use explanatory variables.
-Prefer dedicated value objects to primitive type.
-Avoid negative conditionals.
+- Use explanatory variables.
+- Prefer dedicated value objects to primitive type.
+- Avoid negative conditionals.
 
 **Names rules**
-Choose descriptive and unambiguous names.
-Make meaningful distinction.
-Use pronounceable names.
+- Choose descriptive and unambiguous names.
+- Make meaningful distinction.
+- Use pronounceable names.
 
 **Functions rules**
-Small & Do one thing.
-Use descriptive names.
-Prefer fewer arguments.
+- Small & Do one thing.
+- Use descriptive names.
+- Prefer fewer arguments.
 
 **Comments rules**
-Always try to explain yourself in code.
-Don't comment out code. Just remove.
-Use as explanation of intent.
+- Always try to explain yourself in code.
+- Don't comment out code. Just remove.
+- Use as explanation of intent.
 
 
 **Source code structure**
-Separate concepts vertically.
-Declare variables close to their usage.
-Don't use horizontal alignment.
+- Separate concepts vertically.
+- Declare variables close to their usage.
+- Don't use horizontal alignment.
 
 **Objects and data structures**
-Hide internal structure.
-Prefer data structures.
-Small number of instance variables.
+- Hide internal structure.
+- Prefer data structures.
+- Small number of instance variables.
 
 
 **Tests**
-One assert per test.
-Readable & Fast.
-Independent & Repeatable.
+- One assert per test.
+- Readable & Fast.
+- Independent & Repeatable.
 
 **Code smells**
-Needless Complexity.
-Needless Repetition.
-Opacity. The code is hard to understand.
+- Needless Complexity.
+- Needless Repetition.
+- Opacity. The code is hard to understand.
 
 ### Build Management
 
