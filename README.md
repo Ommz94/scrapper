@@ -1,6 +1,8 @@
 # Scrappy
 A simple web scraper using php with filtering options
 
+[![Build Status](https://travis-ci.com/Ommz94/scrapper.svg?branch=master)](https://travis-ci.com/Ommz94/scrapper)
+
 ### UML
 
 ### Metrices

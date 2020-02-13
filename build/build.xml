@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<project name="Phing test" default="phing-test" basedir="../">
+
+    <property name="ftp.host" value="159.203.175.102" />
+    <property name="ftp.port" value="21" />
+    <property name="ftp.username" value="root" />
+    <property name="ftp.password" value="Huracan@123" />
+    <property name="ftp.dir" value="/var/www/html/phing" />
+    <!-- <property name="ftp.mode" value="ascii" /> -->
+
+    <!-- FILESETS -->
+    <fileset dir="." id="files.html">
+        <include name="index.html" />
+    </fileset>
+
+    <!-- DEPLOYMENT TARGETS -->
+    <target name="phing-test">
+        <echo message="Copying fileset '${deploy.fileset.refid}' to ${ftp.host}" />
+        <ftpdeploy
+            host="${ftp.host}"
+            port="${ftp.port}"
+            username="${ftp.username}"
+            password="${ftp.password}"
+            dir="${ftp.dir}">
+            <fileset refid="${deploy.fileset.refid}" />
+        </ftpdeploy>
+    </target>
+    <target name="deploy-html">
+        <echo msg="Deploying html files" />
+        <phingcall target="deploy">
+            <property name="deploy.fileset.refid" value="files.html" />
+        </phingcall>
+    </target>
+    <target name="deploy-all">
+        <phingcall target="deploy-html" />
+    </target>
+</project>
