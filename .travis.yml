@@ -12,10 +12,9 @@ before_install:
 # - chmod 600 .travis/travis_rsa
 install:
 - composer install
-notifications:
-  email: wmdmalinda@gmail.com
+
 addons:
-  ssh_known_hosts: 159.203.175.102
+  ssh_known_hosts: 165.22.48.48
 branches:
   only:
   - master
