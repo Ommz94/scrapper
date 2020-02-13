@@ -7,6 +7,7 @@
         }
     ],
     "require": {
-        "embed/embed": "^3.4"
+        "embed/embed": "^3.4",
+        "phing/phing": "^2.16"
     }
 }
