@@ -8,12 +8,10 @@ A simple web scraper using php with filtering options
 In Scrappy I have used Two Matrices which is Sonarcloud and Codacy. 
 
 SonarCloud is a cloud service offered by SonarSource and based on SonarQube. SonarQube is a widely adopted open source platform to inspect continuously the quality of source code and detect bugs, vulnerabilities and code smells in more than 20 different languages.
-sudo apt install curl php-cli php-mbstring git unzip
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ommz94_scrapper&metric=alert_status)](https://sonarcloud.io/dashboard?id=Ommz94_scrapper)
 
 Codacy Automatically identify issues through static code review analysis. Therefore we can be notified on security issues, code coverage, code duplication, and code complexity in every commit and pull request, directly from your current workflow
-
-(screenshots)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f677216d1bca49d6b19e8fac58fa276a)](https://www.codacy.com/manual/Ommz94/scrapper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ommz94/scrapper&amp;utm_campaign=Badge_Grade)
 
 
 ### Clean Code Development
