@@ -153,6 +153,15 @@
                                 </div>
                             </div>
                             <?php
+                        }else{
+                            ?>
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <p class="font-weight-bold">Enter webpage url to scrap content.</p>
+                                    <p class="font-weight-bold">You can use highlight words by using the filter box in the right side of the page(Floating button).</p>
+                                </div>
+                            </div>
+                            <?php
                         } ?>
                     </div>
 
