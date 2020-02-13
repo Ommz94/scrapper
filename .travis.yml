@@ -20,6 +20,13 @@ branches:
 deploy:
   skip-cleanup: true
   provider: script
-  script: ./.travis/deploy.sh
+  script: 
+    - set -xe
+    - echo "Running add config.user"
+    - git config user.name "Ommz94"
+    - echo "Running add config.email"
+    - git config user.email "omeashgaya1@gmail.com"
+    - echo "Running pull"
+    - git pull origin master
   on:
     branch: master
