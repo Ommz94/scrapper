@@ -49,11 +49,16 @@ Codacy Automatically identify issues through static code review analysis. Theref
 Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
 
 Following are some points that clean code development is implemented in Scrappy
-1.
-2.
-3.
-4.
-5.
+- Scrappy Has meaningful function names
+- One function is only for one task
+- Every Code snippet kept simple as much as possible to reduce the complexity.
+- Code style and nesting has properly maintained to maximise the Boy scout rule
+- Pronouncerble variable codes are used in PHP code as well as unit test functions
+- Funtions are small and prefer fewer arguments.
+- Tests are readerble and fast.
+- Code is more readerble and repeation of the code is minimised.
+
+( Sources : Src --> home.view.php **|**  tests --> ScrappyTest.php )
 
 **General rules**
 - Follow standard conventions.
@@ -125,6 +130,7 @@ To check the unit tests in the Scrappy :-  ./vendor/bin/phpunit --bootstrap ./ve
 (Path : tests --> ScrappyTest.php)
 
 Following attached is the completed unit test screenshot
+
 ![alt text](https://github.com/Ommz94/scrapper/blob/master/unittest.PNG)
 
 ### Continues Integration
@@ -177,3 +183,9 @@ dsl.php is the file related and following attached is a screenshot.
 
 
 ### Functional Programming
+
+Functional programming is a paradigm, or style, that values immutability, first-class functions, referential transparency, and pure functions. functions as machines — they take an input, or arguments, and then output something, the return value. Pure functions don’t have ‘side effects’ or actions that don’t relate to the output of the function.
+
+Higher order functions are functions that do one of two things: they either take a function as one or more of its parameters, or they return a function. There are many of the first type of higher-order functions
+
+(Hints to verify **tests --> ScrappyTest.php & src --> home.view.php**)
