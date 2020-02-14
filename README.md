@@ -17,13 +17,13 @@ Here is the UML Activity dagram of Scrappy
 
 ![alt text](https://github.com/Ommz94/scrapper/blob/master/Activity%20Diagram%20-%20Activity%20Diagram%20(1).png)
 
-**Class Diagram**
+**Use Case Diagram**
 
 Use case diagrams are usually referred to as behavior diagrams used to describe a set of actions (use cases) that some system or systems (subject) should or can perform in collaboration with one or more external users of the system (actors).
 
 Here is the UML Use Case dagram of Scrappy
 
-![alt text]()
+![alt text](https://github.com/Ommz94/scrapper/blob/master/Scrappy%20Use%20Case%20Diagram.png)
 
 **Seaquence Diagram**
 
@@ -126,7 +126,8 @@ build--> build.xml is the file configured and following attached is a screenshot
 
 Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output.
 
-To check the unit tests in the Scrappy :-  ./vendor/bin/phpunit --bootstrap ./vendor/autoload.php ./tests/ScrappyTest
+To check the unit tests in the Scrappy :- **./vendor/bin/phpunit --bootstrap ./vendor/autoload.php ./tests/ScrappyTest**
+
 (Path : tests --> ScrappyTest.php)
 
 Following attached is the completed unit test screenshot
